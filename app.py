@@ -40,3 +40,4 @@ if url_leet:
     code = code_element.text.strip()
     st.code(code)
     print(code)
+    st.balloons()
