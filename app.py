@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-st.markdown("<h1 style='text-align: center;'>LeapCode</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>LeapCode 踊</h1>", unsafe_allow_html=True)
 
 df = pd.read_csv('./Database/database.csv')
 
