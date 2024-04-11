@@ -9,5 +9,6 @@ k=st.text_input("Enter the serial number of the problem:")
 
 if k:
     k=int(k)
-    st.code(df['Answer'][list(df['Question']).index(k)] , language='c++')
+    # st.write([list(df['Question'])])
+    st.code(df['Question'][list(df['Answer']).index(k)] , language='c++') #oops made the database ulta sorry
     st.balloons()
