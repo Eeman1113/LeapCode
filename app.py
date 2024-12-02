@@ -4,9 +4,8 @@ import streamlit as st
 # Set page title and header
 st.markdown("<h1 style='text-align: center;'>LeapCode 踊</h1>", unsafe_allow_html=True)
 
-# Add sidebar for language selection
-with st.sidebar:
-    language = st.radio("Select Programming Language:", ('C++', 'Python'))
+# Add radio button to choose language database
+language = st.radio("Select Programming Language:", ('C++', 'Python'))
 
 # Load the appropriate database based on language selection
 if language == 'C++':
